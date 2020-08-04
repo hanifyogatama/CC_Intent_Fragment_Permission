@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">CC_Intent_Fragment_Permission</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="landing_page_1">Bermain suit melawan sesama \n pemain</string>
+    <string name="landing_page_2">Bermain suit melawan komputer</string>
+</resources>
