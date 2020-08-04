@@ -40,14 +40,6 @@ class LandingPage1 : Fragment() {
         return inflater.inflate(R.layout.fragment_landing_page1, container, false)
     }
 
-    override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
-        super.onViewCreated(view, savedInstanceState)
-
-//        ivKirim.setOnClickListener {
-//            val intent = Inflater(context,LandingPage2::)
-//            startActivity(intent)
-//        }
-    }
 
     companion object {
         /**

@@ -50,21 +50,12 @@
         android:text="@string/landing_page_1"
         android:textColor="#000"
         android:textSize="15sp"
+        android:fontFamily="@font/comic"
         android:gravity="center"
         app:layout_constraintTop_toBottomOf="@id/ivLogo"
         app:layout_constraintStart_toStartOf="@id/gdVertical1"
         app:layout_constraintEnd_toEndOf="@id/gdVertical2"
         />
 
-    <ImageView
-        android:id="@+id/ivKirim"
-        android:layout_marginTop="20dp"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="kirim"
-        android:src="@drawable/ic_baseline_navigate_next_24"
-        app:layout_constraintEnd_toEndOf="@id/gdVertical2"
-        app:layout_constraintTop_toBottomOf="@id/tvCaption"
-        app:layout_constraintStart_toStartOf="@id/gdVertical1" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

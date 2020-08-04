@@ -17,7 +17,9 @@ class PemainVsKomputer : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_pemain_vs_komputer)
-        this.supportActionBar?.hide()
+        try {
+            this.supportActionBar?.hide()
+        } catch (e: NullPointerException) {}
 
         val binding = ActivityPemainVsKomputerBinding.inflate(layoutInflater)
 
