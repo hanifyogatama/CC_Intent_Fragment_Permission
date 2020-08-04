@@ -19,6 +19,9 @@ class MainActivity : AppCompatActivity() {
             this.supportActionBar?.hide()
         } catch (e: NullPointerException) {}
 
+//        viewPagerMain.adapter = Viewpager(supportFragmentManager)
+//        (viewPagerMain)
+
         // default landing page
             landingPage1 = LandingPage1()
             supportFragmentManager
